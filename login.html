@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Monster Energy</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>MONSTER<span>ENERGY</span></h1>
+  </header>
+
+  <main class="form-container">
+    <form id="form-login" class="form-card">
+      <h2>Entrar</h2>
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" required>
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" required>
+
+      <p id="mensagem-erro" class="mensagem-erro"></p>
+
+      <button type="submit">Entrar</button>
+
+      <p class="link-alternativo">
+        Não tem conta? <a href="cadastro.html">Cadastre-se</a>
+      </p>
+    </form>
+  </main>
+
+  <script src="auth.js"></script>
+</body>
+</html>
